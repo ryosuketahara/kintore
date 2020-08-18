@@ -1,0 +1,312 @@
+@media(min-width:0px) and (max-width:400px) 
+{
+  
+  
+  html,body{
+    height: 100%;
+  }
+  body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+  }
+  .con{
+    height: 100%;
+  }
+  header{
+    /* background-color: chartreuse; */
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header p{
+    margin: 0;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  main{
+    height: 60%;
+    align-items: center;
+  }
+  .menus{
+    height: 80%;
+  }
+  #mune,#kata,#ude,#senaka,#asi{
+    width: 80px;
+    height: 70px;
+    line-height: 70px;
+    font-weight: solid;
+    border: 3px solid white;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .menusjoudan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+  }
+  .menusgedan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+  }
+
+
+
+
+  footer{
+    height: 10%;
+    align-items: center;
+  }
+  .ff{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    margin:  0 auto;
+  }
+
+
+
+  
+  #munemenu,#katamenu,#udemenu,#senakamenu,#asimenu
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    transition: 0.2s;
+  }
+  #munetorekouza,#katatorekouza,#udetorekouza,#senakatorekouza,#asitorekouza{
+    height: 50px;
+    width: 40%;
+    margin-top: 50px;
+    margin: 50px auto 0px auto;
+    line-height: 50px;
+    text-align: center;
+    border: 4px solid white;
+  }
+  #munemenu.hazusu,#katamenu.hazusu,#udemenu.hazusu,#senakamenu.hazusu,#asimenu.hazusu
+  {
+    position: absolute;
+    top: 0;
+    left: -1000px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ここまで６、７、８  10 */
+
+@media(min-width:401px) and (max-width:500px)
+{
+  body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  header{
+    height:280px ;
+    width: 414px;
+    font-size: 14px;
+    margin: 0;
+    background: #efefef;
+    
+  }
+  header h1{
+    font-weight: normal;
+    width:375px ;
+    height:80px ;
+    font-size: 23px;
+    text-align: center;
+    line-height: 80px;
+    position: absolute;
+    bottom: 600px;
+    background-color: #efefef;
+    margin: 0;
+  }
+  header p{
+    width:414px ;
+    height:80px ;
+    font-size: 23px;
+    text-align: center;
+    line-height: 80px;
+    position: absolute;
+    bottom: 570px;
+  }
+  main{
+    width: 414px;
+    height:380px ;
+  }
+  .mune{
+    width:40px ;
+    height:30px ;
+    text-align: center;
+    padding: 3px;
+    margin: 1px;
+    position: absolute;
+    bottom: 330px;
+    left: 60px;
+  }
+  .kata{
+    width:40px ;
+    height:30px ;
+    text-align: center;
+    padding: 3px;
+    margin: 1px;
+    position: absolute;
+    bottom: 330px;
+    left: 180px;
+  }
+  .ude{
+    width:40px ;
+    height:30px ;
+    text-align: center;
+    padding: 3px;
+    margin: 1px;
+    position: absolute;
+    bottom: 330px;
+    left: 300px;
+  }
+  .senaka{
+    width:40px ;
+    height:30px ;
+    text-align: center;
+    padding: 3px;
+    margin: 1px;
+    position: absolute;
+    bottom: 230px;
+    left: 240px;
+  }
+  .asi{
+    width:40px ;
+    height:30px ;
+    text-align: center;
+    padding: 3px;
+    margin: 1px;
+    position: absolute;
+    bottom: 230px;
+    left: 120px;
+  }
+  .mune, .kata ,.ude ,.senaka, .asi{
+    border: 2px solid rgb(31, 30, 30);
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 6px;
+  }
+  footer{
+    width: 414px;
+    height:85px ;
+    background: #efefef;
+  }
+  #munemenu, #katamenu, #udemenu, #senakamenu, #asimenu{
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 736px;
+    width: 414px;
+    color: #fff;
+    transition:  0.3s;
+  }
+  #munetorekouza, #katatorekouza, #udetorekouza, #senakatorekouza,   #asitorekouza{
+    width: 190px;
+    border: 3px solid #fff;
+    text-align: center;
+  }
+  #munemenu.hazusu{
+    transform: translate(-10000px,0);
+  }
+  #katamenu.hazusu{
+    transform: translate(-10000px,0);
+  }
+  #udemenu.hazusu{
+    transform: translate(-10000px,0);
+  }
+  #senakamenu.hazusu{
+    transform: translate(-10000px,0);
+  }
+  #asimenu.hazusu{
+    transform: translate(-10000px,0);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/* ここまでiphone678plus */
+@media(min-width:501px)
+{
+    
+}
